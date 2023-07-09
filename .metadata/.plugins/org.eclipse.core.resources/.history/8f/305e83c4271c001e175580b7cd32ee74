@@ -1,0 +1,11 @@
+package com.dailycodebuffer.SpringBoot.Service;
+
+import com.dailycodebuffer.SpringBoot.Entity.Department;
+
+public interface DepartmentService {
+
+	public Department saveDepartment(Department department) ;
+	
+	
+
+}

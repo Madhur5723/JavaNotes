@@ -1,0 +1,5 @@
+package com.dailycodebuffer.SpringBoot.Repositary;
+
+public interface StudentRepositary {
+
+}

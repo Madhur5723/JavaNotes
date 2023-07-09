@@ -1,0 +1,13 @@
+package com.dailycodebuffer.SpringBoot.Entity;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Student {
+	public int studentID;
+	public String studentName;
+	public String studentAddress;
+	public String studentClass;
+	
+
+}

@@ -1,0 +1,8 @@
+package com.dailycodebuffer.SpringBoot.Service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class DepartmentServiceImpl extends DepartmentService {
+
+}

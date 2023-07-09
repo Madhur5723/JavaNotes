@@ -1,0 +1,8 @@
+package com.dailycodebuffer.SpringBoot.Service;
+
+@Service
+public interface DepartmentService {
+	
+	
+
+}

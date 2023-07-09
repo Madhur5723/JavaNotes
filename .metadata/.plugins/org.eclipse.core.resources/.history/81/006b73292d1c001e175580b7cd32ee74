@@ -1,0 +1,11 @@
+package com.dailycodebuffer.SpringBoot.Service;
+
+import java.util.List;
+
+import com.dailycodebuffer.SpringBoot.Entity.Student;
+
+public interface StudentService {
+	
+	public Student saveStudent(Student student);
+	public List<Student> fetchStudentList();
+	}

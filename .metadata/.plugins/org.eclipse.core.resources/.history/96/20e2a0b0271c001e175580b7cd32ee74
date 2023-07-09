@@ -1,0 +1,9 @@
+package com.dailycodebuffer.SpringBoot.Repositary;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.dailycodebuffer.SpringBoot.Entity.Department;
+
+@Repository
+public interface DepartmentRepositary extends JpaRepository<Department, ID> 

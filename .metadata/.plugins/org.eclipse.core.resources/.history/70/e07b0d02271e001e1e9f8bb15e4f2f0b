@@ -1,0 +1,32 @@
+import java.util.HashMap;
+import java.util.TreeMap;
+
+public class Map {
+
+	public static void main(String[] args) {
+		//4-Map-To store group of values,key,value ,keyValue pair
+		//<Key,Value> key =uniqueValue ,Value=duplicateValue
+		
+		//HashMap=will give output in order 
+		HashMap<String,Integer> hmap=new HashMap<>();
+		hmap.put("Second",20);
+		hmap.put("First",10);
+		System.out.println("HashMap="+hmap+"\n");
+		////////////////////////////////////////////////////
+		
+		//TreeMap=Will give on ranking Sort the Keys
+		TreeMap<String,Integer> tmap=new TreeMap<>();
+		tmap.put("Second",20);
+		tmap.put("First",10);
+		System.out.println("TreeMap="+tmap);
+		System.out.println("FirstElement="+tmap.get("First"));
+		System.out.println(""+tmap.keySet());
+		System.out.println(""+tmap.values());
+
+
+		
+
+
+	}
+
+}

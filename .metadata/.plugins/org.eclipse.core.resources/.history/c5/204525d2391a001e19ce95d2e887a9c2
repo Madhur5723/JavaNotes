@@ -1,0 +1,12 @@
+package com.dailycodebuffer.SpringBoot.Controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloController {
+	public String helloWorld()
+	{
+		return "Welcome to the world of spring-boot";
+	}
+
+}

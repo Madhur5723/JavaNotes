@@ -1,0 +1,20 @@
+import java.util.HashSet;
+
+public class Set {
+
+	public static void main(String[] args) {
+		//2-Set
+		//HashSet-display is unorder
+		HashSet<Integer> hset=new HashSet<Integer>();
+		hset.add(10);
+		hset.add(5);
+		hset.add(16);
+		hset.add(2);
+		hset.add(2);//Only display unique value same value will be display once
+		System.out.println("HashSet="+hset+"\n");
+
+		 
+
+	}
+
+}

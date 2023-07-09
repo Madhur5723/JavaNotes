@@ -1,0 +1,19 @@
+import java.util.HashSet;
+
+public class Set {
+
+	public static void main(String[] args) {
+		//2-Set
+		//HashSet
+		HashSet<Integer> hset=new HashSet<Integer>();
+		hset.add(10);
+		hset.add(5);
+		hset.add(16);
+		hset.add(2);
+		System.out.println("HashSet="+hset+"\n");
+
+		 
+
+	}
+
+}

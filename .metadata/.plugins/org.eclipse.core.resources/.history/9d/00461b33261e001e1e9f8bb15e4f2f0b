@@ -1,0 +1,17 @@
+import java.util.HashMap;
+
+public class Map {
+
+	public static void main(String[] args) {
+		//4-Map-To store group of values,key,value ,keyValue pair
+		//<Key,Value> key =uniqueValue ,Value=duplicateValue
+		HashMap<String,Integer> hmap=new HashMap<>();
+		hmap.put("Second",20);
+		hmap.put("First",10);
+		System.out.println("HashMap="+hmap);
+		
+
+
+	}
+
+}

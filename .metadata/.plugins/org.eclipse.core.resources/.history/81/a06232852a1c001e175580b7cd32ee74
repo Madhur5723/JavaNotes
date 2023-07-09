@@ -1,0 +1,13 @@
+package com.dailycodebuffer.SpringBoot.Service;
+
+import java.util.List;
+
+import com.dailycodebuffer.SpringBoot.Entity.Department;
+
+public interface DepartmentService {
+
+	public Department save(Department department);
+
+	public List<Department> fetchDepartmentList();
+
+}

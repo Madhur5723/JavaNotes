@@ -1,0 +1,42 @@
+package com.dailycodebuffer.SpringBoot.Entity;
+
+public class Department {
+	public long departmentId;
+	public String departmentName;
+	public String departmentAddress;
+	public Department(long departmentId, String departmentName, String departmentAddress) {
+		super();
+		this.departmentId = departmentId;
+		this.departmentName = departmentName;
+		this.departmentAddress = departmentAddress;
+	}
+	public long getDepartmentId() {
+		return departmentId;
+	}
+	public void setDepartmentId(long departmentId) {
+		this.departmentId = departmentId;
+	}
+	public String getDepartmentName() {
+		return departmentName;
+	}
+	public void setDepartmentName(String departmentName) {
+		this.departmentName = departmentName;
+	}
+	public String getDepartmentAddress() {
+		return departmentAddress;
+	}
+	public void setDepartmentAddress(String departmentAddress) {
+		this.departmentAddress = departmentAddress;
+	}
+	public Department() {
+		super();
+	}
+	@Override
+	public String toString() {
+		return "Department [departmentId=" + departmentId + ", departmentName=" + departmentName
+				+ ", departmentAddress=" + departmentAddress + "]";
+	}
+	
+	
+
+}

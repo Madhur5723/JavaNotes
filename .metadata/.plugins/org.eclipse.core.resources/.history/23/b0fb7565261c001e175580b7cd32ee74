@@ -1,0 +1,19 @@
+package com.dailycodebuffer.SpringBoot.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.dailycodebuffer.SpringBoot.Entity.Department;
+import com.dailycodebuffer.SpringBoot.Repositary.DepartmentRepositary;
+
+@Service
+public interface DepartmentService {
+	
+	@Autowired
+	private DepartmentRepositary departmentRepositary;
+
+	static Department saveDepartment(Department department) {
+		return departmentRepositary.;
+	}
+
+}

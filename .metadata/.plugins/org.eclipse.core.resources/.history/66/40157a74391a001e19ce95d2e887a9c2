@@ -1,0 +1,5 @@
+package com.dailycodebuffer.SpringBoot.Controller;
+
+public class HelloController {
+
+}

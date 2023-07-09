@@ -1,0 +1,13 @@
+import java.util.HashSet;
+
+public class Set {
+
+	public static void main(String[] args) {
+		//2-Set
+		//HashSet
+		HashSet<Integer> hset=new HashSet<Integer>();
+		 
+
+	}
+
+}

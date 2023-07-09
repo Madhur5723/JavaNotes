@@ -1,0 +1,5 @@
+package com.dailycodebuffer.SpringBoot.Entity;
+
+public class Department {
+
+}
